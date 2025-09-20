@@ -136,16 +136,17 @@ ul li a:hover {
 .action__btns {
   display: flex;
   gap: 1rem;
+  margin-top: 10px;
 }
 
 .action__btns button {
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 2px;
-  padding: 1rem 2rem;
+  padding: 18px 50px;
   outline: none;
   border: 2px solid var(--primary-color);
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -174,25 +175,20 @@ ul li a:hover {
 }
 
 .social-icons {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  gap: 10px;
   display: flex;
-  z-index: 100;
+  gap: 25px;
+  margin-bottom: 1.5rem; 
 }
 
 .social-icons a {
   color: var(--primary-color);
-  text-decoration: none;
+  font-size: 27px;
   transition: color 0.3s;
-  font-size: 1.2rem;
 }
 
 .social-icons a:hover {
-  color: var(--primary-color-dark);
+  color: var(--secondary-color);
 }
-
 
 .image img {
   width: min(25rem, 90%);
@@ -236,5 +232,9 @@ ul li a:hover {
 
   .action__btns {
     margin: auto;
+  }
+
+    .social-icons {
+    justify-content: center;
   }
 }
